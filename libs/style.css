@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+/*******************NAVBAR - MENU************************/
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.logo {
+    width: 160px;
+    margin-left: 15px;
+}
+
+.links a {
+    margin-right: 15px;
+    padding-left: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #294661;
+}
+
+.links a:hover {
+    color: #0f8afd;
+    transition: .3s;
+}
+
+.btn-1 {
+    padding: 10px 20px;
+    background: #fff;
+    color: #0f8afd;
+    font-weight: 500;
+    border: 2px solid #0f8afd;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-1:hover {
+    background: #0f8afd;
+    color: #fff;
+    transition: .3s;
+}
+
+.hamburguer {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #294661;
+}
+/*******************BANNER************************/
+.banner{
+    background: #f1f7fd;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+.banner-txt{
+    font-size: 3.5em;
+    font-weight: 600;
+    color: #294661;
+    line-height: 1.2em;
+}
+.banner-btn{
+    font-size: 18px;
+    background: #f1f7fd;
+    margin-top: 40px;
+}
+.banner img {
+    margin-bottom: -6.6px;
+}
+
+/*******************NEWSLETTER************************/
+footer, .newsletter {
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+}
+.newsletter {
+    bottom: 85px;
+    padding: 60px 0;
+    background-color: #294661;
+    background-position: center;
+    background-repeat: no-repeat, repeat;
+}
+.news-p1{
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.news-p2{
+    margin: 20px 0;
+    color: #aebcc9;
+}
+.news-form{
+    margin-top: 0px;
+}
+.news-form input{
+    width: 280px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #aebcc9;
+    background: transparent;
+    outline: none;
+}
+.news-form input::placeholder, .news-form input[type="email"]{
+    color: #aebcc9;
+}
+.news-form input[type="email"]{
+    font-size: 16px;
+}
+.btn-news {
+    padding: 7px 15px;
+    background: #0f8afd;
+    color: #fff;
+}
+/*******************FOOTER - RODAPE************************/
+footer {
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+}
+.text-p1 {
+    font-weight: 600;
+    color: #294661;
+}
+.assinat {
+    font-style: italic;
+    font-weight: 500;
+    color: #aebcc9;
+}

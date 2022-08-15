@@ -1,0 +1,5 @@
+https://fonts.google.com/specimen/Poppins
+
+Cor primaria:   #294661
+Cor secundaria: #f1f7fd
+Cor de fundo:   #0f8afd 
