@@ -31,7 +31,6 @@
     margin-right: 15px;
     padding-left: 50px;
     text-decoration: none;
-    font-size: 18px;
     font-weight: 500;
     color: #294661;
 }
@@ -72,7 +71,7 @@
     background-color: #294661;
 }
 /*******************BANNER************************/
-.banner{
+.banner, .video{
     background: #f1f7fd;
     display: flex;
     justify-content: space-around;
@@ -92,6 +91,51 @@
 }
 .banner img {
     margin-bottom: -6.6px;
+}
+
+/*******************VIDEO************************/
+.video {
+    background: #fff;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+.inf-video{
+    width: 370px;
+    height: 270px;
+    background: #294661;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inf-video img{
+    width:  50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 7px;
+}
+.img-video{
+    margin-left: 12%;
+}
+.text-video {
+    margin-right: 12%;
+}
+.text1-video {
+    font-size: 15px;
+    font-weight: 500;
+    color: #0f8afd;
+}
+.text2-video {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #294661;
+    margin: 10px 0;
+}
+.text3-video {
+    color: #aebcc9;    
 }
 
 /*******************NEWSLETTER************************/

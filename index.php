@@ -8,32 +8,43 @@
     <link rel="icon" type="image/x-icon" href="./imgs/favicon.png">
     <link rel="stylesheet" href="libs/style.css">
     <link rel="stylesheet" href="libs/style2.css">
-    <title>OrbitApp</title>
+    <title>Orbit App</title>
 </head>
 
 <body>
 
-    <?php include 'header.php'; ?>
+    <?php include './includes/header.php'; ?>
+    <?php include './includes/banner.php'; ?>
 
-    <div class="banner">
-        <div class="container banner">
-            <div>
-                <p class="banner-txt">
-                    Orbit App, <br>
-                    é tudo que você <br>
-                    preciso. <br>
-                </p>
-
-                <button class=" btn-1 banner-btn"> Fazer Download </button>
+    <div class="video">
+        <div class="container video">
+            <div class="img-video">
+                <div class="inf-video">
+                    <img src="./imgs/icon-play.png" alt="">
+                </div>
             </div>
-            <div class="banner-img">
-                <img src="./imgs/mockup-iphone.png" alt="Imagem ilustrativa">
+            <div class="text-video">
+                <p class="text1-video">
+                    Vídeo Orbit
+                </p>
+                <p class="text2-video">
+                    Com Orbit App, você <br>
+                    ganha autonomia, rapidez <br>
+                    e muito dinheiro
+                </p>
+                <p class="text3-video"> 
+                Lorem ipsum dolor sit amet, consectetur <br>
+                adipiscing elit, sed do eiusmod tempor incididunt <br>
+                ut labore et dolore magna aliqua.
+                </p>
             </div>
         </div>
-    </div>
 
-    <?php include 'newsletter.php'; ?>
-    <?php include 'footer.php'; ?>
+    </div>
+    
+
+    <?php include './includes/newsletter.php'; ?>
+    <?php include './includes/footer.php'; ?>
     <script src="libs/scripts.js"></script>
 </body>
 

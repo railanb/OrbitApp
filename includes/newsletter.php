@@ -12,7 +12,7 @@
         <form action="">
             <input type="email" placeholder="Seu melhor e-mail" focus="off">
             <a href="#">
-                <button class="btn-1 btn-news" type="submit">Cadastrar-se</button>
+                <button class="btn-1 btn-news" type="submit">Cadastrar</button>
             </a>
         </form>
     </div>
