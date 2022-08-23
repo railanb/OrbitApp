@@ -1,31 +1,38 @@
-
 /* Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
-@media (min-width: 200px) and (max-width: 575px){
-    .nav-bar{
+@media (min-width: 200px) and (max-width: 575px) {
+    .nav-bar {
         position: fixed;
     }
-    .logo{
+
+    .logo {
         width: 130px;
         margin-left: 0px;
         position: relative;
         z-index: 1;
     }
-    .btn-1{
+
+    .btn-1 {
         margin-top: 40%;
+        font-size: 12px;
     }
-    .hamburguer{
+
+    .hamburguer {
         display: block;
     }
-    .hamburguer.active .bar:nth-child(2){
+
+    .hamburguer.active .bar:nth-child(2) {
         opacity: 0;
     }
-    .hamburguer.active .bar:nth-child(1){
+
+    .hamburguer.active .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
     }
-    .hamburguer.active .bar:nth-child(3){
+
+    .hamburguer.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
-    .links-menu{
+
+    .links-menu {
         position: fixed;
         right: -100%;
         top: 0px;
@@ -38,26 +45,32 @@
         text-align: center;
         transition: 0.5s;
     }
-    .links-menu{
+
+    .links-menu {
         display: flex;
     }
-    .link{
+
+    .link {
         margin: 16px 0;
     }
+
     .links a {
         padding: 0;
     }
-    .links-menu.active{
+
+    .links-menu.active {
         right: 0;
     }
 
-    .banner-txt{
+    .banner-txt {
         font-size: 2em;
     }
-    .banner-btn{
+
+    .banner-btn {
         font-size: 14px;
     }
-    .banner img{
+
+    .banner img {
         width: 16em;
         margin-top: 40px;
     }
@@ -66,41 +79,97 @@
         display: block;
         justify-content: center;
     }
-    .inf-video{
+
+    .inf-video {
         width: 300px;
         height: 200px;
         margin-bottom: 22px;
     }
-    .img-video{
+
+    .img-video {
         margin-left: 0;
     }
+
     .text-video {
         margin-right: 0;
     }
+
     .text1-video {
         font-size: 13px;
     }
+
     .text2-video {
         font-size: 20px;
     }
+
     .text3-video {
-        font-size: 13px;   
+        font-size: 13px;
     }
 
-
-    .text-p1, .assinat, .news-p2, .news-form input[type="email"]{
-        font-size: 14px;
-    }
-    .news-p1{
-        font-size: 18px;
-    }
-    .news-form{
+    .experiencia {
         display: block;
+        margin-top: 0;
+        padding-top: 0;
     }
-    .btn-news, .banner-btn{
+
+    .exp-itens img {
+        width: 16px;
+    }
+
+    .exp-btn {
         margin-top: 15px;
     }
-    .banner{
+
+    .integracao {
+        display: block;
+        padding: 0;
+        width: 100%;
+        margin-top: 80px;
+        text-align: center;
+    }
+
+    .inte-img {
+        justify-content: center;
+    }
+
+    .inte-infor {
+        display: block;
+        text-align: center;
+
+    }
+    .inte-infor img {
+        width: 26px;
+        height: 24px;
+        margin: 0;
+        margin-top: 30px;
+
+    }
+    .inte-infor button{
+        margin-bottom: 30px;
+    }
+
+
+    .text-p1,
+    .assinat,
+    .news-p2,
+    .news-form input[type="email"] {
+        font-size: 14px;
+    }
+
+    .news-p1 {
+        font-size: 18px;
+    }
+
+    .news-form {
+        display: block;
+    }
+
+    .btn-news,
+    .banner-btn {
+        margin-top: 15px;
+    }
+
+    .banner {
         display: block;
         text-align: center;
     }
@@ -109,27 +178,34 @@
 }
 
 
-@media (min-width: 576px) and (max-width: 767.98px){ 
-    .logo{
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .logo {
         position: relative;
         z-index: 1;
     }
-    .btn-1{
+
+    .btn-1 {
         margin-top: 40%;
+        font-size: 14px;
     }
-    .hamburguer{
+
+    .hamburguer {
         display: block;
     }
-    .hamburguer.active .bar:nth-child(2){
+
+    .hamburguer.active .bar:nth-child(2) {
         opacity: 0;
     }
-    .hamburguer.active .bar:nth-child(1){
+
+    .hamburguer.active .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
     }
-    .hamburguer.active .bar:nth-child(3){
+
+    .hamburguer.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
-    .links-menu{
+
+    .links-menu {
         position: fixed;
         right: -100%;
         top: 0px;
@@ -142,26 +218,32 @@
         text-align: center;
         transition: 0.5s;
     }
-    .links-menu{
+
+    .links-menu {
         display: flex;
     }
-    .link{
+
+    .link {
         margin: 16px 0;
     }
+
     .links a {
         padding: 0;
     }
-    .links-menu.active{
+
+    .links-menu.active {
         right: 0;
     }
 
-    .banner-txt{
+    .banner-txt {
         font-size: 2.8em;
     }
-    .banner-btn{
+
+    .banner-btn {
         font-size: 16px;
     }
-    .banner img{
+
+    .banner img {
         width: 20em;
         margin-top: 40px;
     }
@@ -170,35 +252,87 @@
         display: block;
         justify-items: center;
     }
-    .inf-video{
+
+    .inf-video {
         width: 300px;
         height: 200px;
         margin-bottom: 22px;
     }
-    .img-video{
+
+    .img-video {
         margin-left: 0;
     }
+
     .text-video {
         margin-right: 0;
     }
+
     .text2-video {
         font-size: 20px;
     }
+
     .text3-video {
-        font-size: 14px;   
+        font-size: 14px;
     }
 
+    .experiencia {
+        display: block;
+        margin-top: 0;
+        padding-top: 0;
+    }
 
-    .text-p1, .assinat, .news-p2, .news-form input[type="email"]{
-        font-size: 16px;
+    .exp-itens img {
+        width: 18px;
     }
-    .news-p1{
-        font-size: 22px;
-    }
-    .btn-news, .banner-btn{
+
+    .exp-btn {
         margin-top: 15px;
     }
-    .banner{
+
+    .integracao {
+        display: block;        
+        padding: 0;
+        width: 100%;
+        margin-top: 80px;
+        text-align: center;
+    }
+
+    .inte-img {
+        justify-content: center;
+    }
+
+    .inte-infor {
+        display: block;
+
+    }
+    .inte-infor img {
+        width: 26px;
+        height: 24px;
+        margin: 0;
+        margin-top: 30px;
+
+    }
+    .inte-infor button{
+        margin-bottom: 30px;
+    }
+
+    .text-p1,
+    .assinat,
+    .news-p2,
+    .news-form input[type="email"] {
+        font-size: 16px;
+    }
+
+    .news-p1 {
+        font-size: 22px;
+    }
+
+    .btn-news,
+    .banner-btn {
+        margin-top: 15px;
+    }
+
+    .banner {
         display: block;
         text-align: center;
     }
@@ -206,45 +340,54 @@
 }
 
 /*Dispositivos médios (tablets com 768px ou mais)*/
-@media (min-width: 768px) and (max-width: 991.98px) { 
-    .links a{
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .links a {
         margin-right: 4px;
         padding-left: 35px;
         font-size: 16px;
     }
-    .btn-1{
+
+    .btn-1 {
         padding: 8px 16px;
     }
-    .inf-video{
+
+    .inf-video {
         width: 340px;
         height: 240px;
     }
-    .img-video{
+
+    .img-video {
         margin-left: 0;
     }
+
     .text-video {
         margin-right: 0;
     }
+
     .text1-video {
         font-size: 14px;
     }
+
     .text2-video {
         font-size: 22px;
     }
+
     .text3-video {
-        font-size: 14px;   
+        font-size: 14px;
+    }
+
+    .integracao {
+        padding: 0 6%;
     }
 }
 
 /*Dispositivos large (desktops com 992px ou mais)*/
-@media (min-width: 992px) and (max-width: 1199.98px) { 
-    .links a{
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .links a {
         margin-right: 6px;
         padding-left: 50px;
     }
 }
 
 /*Dispositivos extra large (desktops grandes com 1200px ou mais)*/
-@media (min-width: 1200px) { 
-
-}
+@media (min-width: 1200px) {}
